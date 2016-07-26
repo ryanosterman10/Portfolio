@@ -1,0 +1,59 @@
+/* Main content styling for all pages */
+
+body{
+      background-image: url("../images/background-image.jpg");
+      background-size: cover;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      margin-bottom: 80px;
+}
+
+::selection{
+      color: white;
+      background-color:skyblue;
+}
+
+.col-md-4{
+      margin-top: 40px;
+}
+
+.panel-heading h3{
+	text-align: center;
+}
+
+button img{
+	max-height: 80px;
+	max-width: 80px;
+}
+
+.panel-body a button{
+	margin-bottom: 10px;
+}
+
+.port-item{
+	width: auto;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.port-img{
+	width: 100%;
+	height: 100%;
+}
+
+.caption{
+	position: relative;
+	bottom: 80px;
+	line-height: 3;
+	text-align: center;
+	background-color: #46608b;
+	color: white;
+	font-size: 20px;
+}
+
+.caption:hover{
+	background-color: white;
+	color: #46608b;
+}
+

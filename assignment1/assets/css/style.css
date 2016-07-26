@@ -282,3 +282,30 @@ input[type="submit"]:active{
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       font-size: 1.25em;
 }
+
+/* Media Queries */
+
+@media screen and (max-width: 980px){
+
+
+
+}
+
+@media screen and (max-width: 768px){
+
+
+
+}
+
+@media screen and (max-width: 640px){
+
+
+
+}
+
+
+
+
+
+
+

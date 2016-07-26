@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>About - Ryan Osterman</title>	
+    <title>About - Ryan Osterman</title>  
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/darkly/bootstrap.min.css" integrity="sha384-kVo/Eh0sv7ZdiwZK32nRsp1FrDT3sLRLx3zVpSSTI9UdO5H02LJNLBg5F1gwvKg0" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
@@ -15,7 +16,7 @@
         </div>
         <div>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="index.html">About</a></li>
+            <li class="active"><a href="index.html">About</a></li>
             <li><a href="portfolio.html">Portfolio</a></li>
             <li><a href="contact.html">Contact</a></li>
           </ul>
@@ -25,16 +26,18 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-md-8">
+
+        <div class="col-md-8">         
           <div class="page-header">
-            <h2>About Me</h2>
+            <h2 class="well">About Me</h2>
           </div>
           <div class="row">
             <div class="col-md-3">
-              <img src="https://hidden-refuge-81227.herokuapp.com/assets/images/profile-image.jpg" alt="profile" class="img-thumbnail">
-            </div>
+              <img src="assets/images/profile-image.jpg" alt="profile" class="img-thumbnail">
+            </div>           
             <div class="col-md-9">
-              <p>Hello World! My name is Ryan Osterman and I am an aspiring Full Stack Web Developer. I currently reside in Morrisville, NC and have been living in the RTP area since graduating from the University of North Carolina at Chapel Hill. I work for the UNC School of Medicine TEACCH Division and am responsible for creating and implementing individualized programs for adults diagnosed with Autism Spectrum Disorder (ASD), utilizing visual and physical structured teaching methods to promote meaning and independence in various work environments. Ultimately, I would like to create a website and/or web application capable of improving the lives of individuals with ASD. I am also a huge fan of all dogs, especially mine, Phoebe, spending time and traveling with my beautiful girlfriend, Katie, cheese, and of course learning new coding languages! I have experience with front-end development, utilizing HTML and CSS.</p>
+              <p class="well">Hello World! My name is Ryan Osterman and I am an aspiring Full Stack Web Developer. I currently reside in Morrisville, NC and have been living in the RTP area since graduating from the University of North Carolina at Chapel Hill. I work for the UNC School of Medicine TEACCH Division and am responsible for creating and implementing individualized programs for adults diagnosed with Autism Spectrum Disorder (ASD), utilizing visual and physical structured teaching methods to promote meaning and independence in various work environments. Ultimately, I would like to create a website and/or web application capable of improving the lives of individuals with ASD. I am also a huge fan of all dogs, especially mine, Phoebe, spending time and traveling with my beautiful girlfriend, Katie, cheese, and of course learning new coding languages! I have experience with front-end development, utilizing HTML, CSS and now Bootstrap!
+              </p>
             </div>
           </div>
         </div>
@@ -45,21 +48,24 @@
               <h3 class="panel-title">Connect With Me</h3>
             </div>
             <div class="panel-body">
-              Social Content
+              <a href="https://github.com/ryanosterman10/"><button type="button" class="btn btn-primary btn-lg btn-block"><img src="assets/images/github-logo.png"></button></a>
+              <a href="https://linkedin.com"><button type="button" class="btn btn-primary btn-lg btn-block"><img src="assets/images/linkedin-logo.png"></button></a>
+              <a href="https://stackoverflow.com"><button type="button" class="btn btn-primary btn-lg btn-block"><img src="assets/images/stackoverflow-logo.png"></button></a>
             </div>
           </div>
         </div>
 
+      </div>
+    </div>
+
     <nav class="navbar navbar-default navbar-fixed-bottom">
       <div class="container">
-        <div class="navbar-footer navbar-right">
-          <a class="navbar-brand" href="#">&copy;Copyright 2016 Ryan Osterman</a>
-        </div>
+          <p class="navbar-text pull-left">&copy;Copyright 2016 Ryan Osterman</p>
+          <a href="#" class="navbar-btn btn-default btn pull-right">Message</a>
       </div>
     </nav>
 
-</body>
+  </body>
 </html>
-
 
 
