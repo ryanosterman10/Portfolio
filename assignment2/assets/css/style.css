@@ -18,6 +18,10 @@ body{
       margin-top: 40px;
 }
 
+.col-md-3 img{
+	max-width: 175px;
+}
+
 .panel-heading h3{
 	text-align: center;
 }
@@ -29,6 +33,10 @@ button img{
 
 .panel-body a button{
 	margin-bottom: 10px;
+}
+
+button.btn.btn-primary.btn-lg.btn-block:hover {
+    background-color: white;
 }
 
 .port-item{

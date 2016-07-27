@@ -21,27 +21,24 @@ body{
 
 /* Header and navbar */
 
-.top{
-      width: 960px;
-      margin: auto;
-      background-color: white;
-}
-
 header{
-      line-height: 3;
+      background-color: #ffffff;
+      height:50px;
 }
 
 #name{
+      position: relative;
       display: inline-block;
-      font-size: 2.5em;
+      font-size: 2em;
       font-weight: bold;
       background-color: #4aaaa5;
       color: #ffffff;
-      padding-right: 30px;
-      padding-left: 30px;
+      padding-right: 10px;
+      padding-left: 10px;
       padding-bottom: 10px;
       font-family: 'Georgia', Times, 'Times New Roman', serif;
-      margin-left: 60px;
+      margin-left: 30px;
+      margin-top: 5px;
 }
 
 #navbar{
@@ -65,7 +62,7 @@ header{
 .nav-item{
       display: inline;
       height: 100%;
-      font-size: 1.25em;
+      font-size: 1em;
       font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
       padding-right: 20px;
       padding-left: 20px;
@@ -293,8 +290,17 @@ input[type="submit"]:active{
 @media screen and (max-width: 980px){
 
       header{
-            width: 80%;
+            width: 100%;
             margin: auto;
+      }
+
+      header #name{
+            margin-left: 5px;
+      }
+
+      footer{
+            width: 100%;
+            clear: both;
       }
 
       .main{
@@ -304,6 +310,7 @@ input[type="submit"]:active{
 
       .main-content img{
             float: none;
+            margin-left: 100px;
       }
 
       .main-content{
@@ -314,21 +321,65 @@ input[type="submit"]:active{
             width: 30%;
       }
 
-      footer{
-            clear: both;
+      .port{
+            margin-left: 100px;
       }
 
 }
 
 @media screen and (max-width: 768px){
 
+      header{
+            width: 100%;
+            margin: auto;
+      }
 
+      header #name{
+            font-size: 1.5em;
+            margin-top: 5px;
+            margin-left: 0;
+            padding-top: 5px;
+      }
+
+      footer{
+            width: 100%;
+            clear: both;
+      }
+
+      .main{
+            margin-top: 30px;
+            width: 70%;
+      }
+
+      .main-content img{
+            float: left;
+      }
+
+      .main-content{
+            width: 95%;
+            margin: auto;
+      }
+
+      #social{
+            float: left;
+            width: 95%
+            margin: 20px 0px 20px 0px;
+      }
 
 }
 
 @media screen and (max-width: 640px){
 
+      header{
+            width: 100%
+            margin: auto;
+            position: static;
+      }
 
+      footer{
+            width: 100%;
+            clear: both;
+      }
 
 }
 
