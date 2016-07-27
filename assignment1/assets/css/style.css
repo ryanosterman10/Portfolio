@@ -331,13 +331,14 @@ input[type="submit"]:active{
 
       header{
             width: 100%;
+            min-width: 620px;
             margin: auto;
       }
 
       header #name{
             font-size: 1.5em;
             margin-top: 5px;
-            margin-left: 0;
+            margin-left: 5px;
             padding-top: 5px;
       }
 
@@ -349,21 +350,31 @@ input[type="submit"]:active{
       .main{
             margin-top: 30px;
             width: 70%;
+            float: left;
+            margin-left: 50px;
+      }
+
+      .main-bio{
+            font-size: 0.75em;
       }
 
       .main-content img{
             float: left;
+            margin-left: 20px;
       }
 
       .main-content{
             width: 95%;
-            margin: auto;
       }
 
       #social{
             float: left;
-            width: 95%
-            margin: 20px 0px 20px 0px;
+            width: 90%;
+            margin: 20px 0px 20px 30px;
+      }
+
+      .port{
+            margin-left: 35px;
       }
 
 }
@@ -371,7 +382,8 @@ input[type="submit"]:active{
 @media screen and (max-width: 640px){
 
       header{
-            width: 100%
+            height: 100px;
+
             margin: auto;
             position: static;
       }
@@ -379,6 +391,34 @@ input[type="submit"]:active{
       footer{
             width: 100%;
             clear: both;
+      }
+
+      #name{
+            width: 100%;
+            text-align: center;
+
+      }
+
+      h1 #name{
+            margin-left: 0;
+      }
+
+      .main{
+            width: 60%;
+            margin-left: 30px;
+      }
+
+      .nav-item{
+            border: none;
+      }
+
+      .main-content img{
+            width: 90%;
+            height: auto;
+      }
+
+      .port{
+            margin-left: 130px;
       }
 
 }
