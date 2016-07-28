@@ -22,6 +22,10 @@ body{
 	max-width: 175px;
 }
 
+.col-md-9 p{
+	line-height: 1.5;
+}
+
 .panel-heading h3{
 	text-align: center;
 }
@@ -64,7 +68,6 @@ button.btn.btn-primary.btn-lg.btn-block:hover {
 	background-color: white;
 	color: #46608b;
 }
-
 
 .well, .panel, .panel-heading{
 	background-color: black;
