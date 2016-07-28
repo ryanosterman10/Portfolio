@@ -11,7 +11,7 @@ body{
 
 ::selection{
       color: white;
-      background-color:skyblue;
+      background-color:#46608b;
 }
 
 .col-md-4{
@@ -64,4 +64,19 @@ button.btn.btn-primary.btn-lg.btn-block:hover {
 	background-color: white;
 	color: #46608b;
 }
+
+
+.well, .panel, .panel-heading{
+	background-color: black;
+	-webkit-animation-name: change;
+	-webkit-animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+@-webkit-keyframes change{
+	from {background-color: black;}
+	to {background-color: skyblue;}
+}
+
 

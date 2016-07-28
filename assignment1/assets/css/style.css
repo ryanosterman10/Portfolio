@@ -294,10 +294,6 @@ input[type="submit"]:active{
             margin: auto;
       }
 
-      header #name{
-            margin-left: 5px;
-      }
-
       footer{
             width: 100%;
             clear: both;
@@ -315,10 +311,12 @@ input[type="submit"]:active{
 
       .main-content{
             width: 60%;
+            margin-left: 20px;
       }
 
       #social{
             width: 30%;
+            margin-right: 20px;
       }
 
       .port{
@@ -337,8 +335,6 @@ input[type="submit"]:active{
 
       header #name{
             font-size: 1.5em;
-            margin-top: 5px;
-            margin-left: 5px;
             padding-top: 5px;
       }
 
@@ -383,7 +379,6 @@ input[type="submit"]:active{
 
       header{
             height: 110px;
-            margin: auto;
       }
 
       footer{
@@ -394,11 +389,8 @@ input[type="submit"]:active{
       #name{
             width: 100%;
             text-align: center;
-
-      }
-
-      #name{
             margin-left: 0;
+            margin-top: 0;
       }
 
       .main{
