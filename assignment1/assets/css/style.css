@@ -68,7 +68,7 @@ header{
       padding-left: 20px;
       padding-top: 20px;
       padding-bottom: 20px;
-      border-right: 2px solid #777777;
+      border-right: 2px solid #dddddd;
       color: #777777;
 }
 
@@ -88,7 +88,7 @@ header{
 .main{
       background-image: url("../images/concrete_seamless.png");
       overflow: auto;
-      border-top: 2px solid #777777;
+      border-top: 2px solid #dddddd;
 }
 
 .main-content{
@@ -382,10 +382,8 @@ input[type="submit"]:active{
 @media screen and (max-width: 640px){
 
       header{
-            height: 100px;
-
+            height: 110px;
             margin: auto;
-            position: static;
       }
 
       footer{
@@ -399,13 +397,19 @@ input[type="submit"]:active{
 
       }
 
-      h1 #name{
+      #name{
             margin-left: 0;
       }
 
       .main{
             width: 60%;
             margin-left: 30px;
+      }
+
+      #navbar{
+            float: left;
+            margin-left: 120px;
+            margin-top: 15px;
       }
 
       .nav-item{
